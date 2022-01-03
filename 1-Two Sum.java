@@ -15,7 +15,5 @@ public int[] twoSum(int[] nums, int target) {
                 }   
             }
         }
-        
-        return ans;
-        
+           return ans;
     }
