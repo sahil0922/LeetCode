@@ -1,5 +1,6 @@
 public ListNode reverseList(ListNode head) {
         
+        // for 0 and 1 size Node
         if(head == null || head.next == null){
             return head;
         }
