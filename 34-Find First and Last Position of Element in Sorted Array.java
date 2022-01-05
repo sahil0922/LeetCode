@@ -1,4 +1,5 @@
-// time complexity of this is O(logn)
+// time complexity of this is O(logn) 
+// space complexity is O(1)
 
 public int[] searchRange(int[] nums, int target) {
         int[] answer = new int[2];
