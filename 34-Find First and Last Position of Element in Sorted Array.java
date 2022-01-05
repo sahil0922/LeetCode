@@ -47,6 +47,5 @@ public int[] searchRange(int[] nums, int target) {
         
         answer[1] = lastPlace;
         
-        return answer;
-        
+        return answer;   
     }
