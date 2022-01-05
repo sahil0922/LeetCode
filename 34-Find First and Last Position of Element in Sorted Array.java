@@ -1,3 +1,5 @@
+// time complexity of this is O(logn)
+
 public int[] searchRange(int[] nums, int target) {
         int[] answer = new int[2];
         
