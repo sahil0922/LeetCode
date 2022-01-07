@@ -10,6 +10,5 @@ public int largestAltitude(int[] gain) {
         for(int i = 1; i<altitude.length; i++){
            max = Math.max(max, altitude[i]);
         }
-        
         return max;
     }
