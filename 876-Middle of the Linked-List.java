@@ -1,4 +1,4 @@
-//here i have used concept of slow and fas
+//here i have used concept of slow and fast
 
 public ListNode middleNode(ListNode head) {
         
