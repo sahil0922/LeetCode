@@ -1,3 +1,5 @@
+//here i have used concept of slow and fas
+
 public ListNode middleNode(ListNode head) {
         
         // base case for 0 and 1 size linkedlist
