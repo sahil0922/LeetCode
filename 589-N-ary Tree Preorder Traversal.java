@@ -6,8 +6,7 @@ public void preorderHelper(Node root, List<Integer> list){
         for(Node child : root.children){
             preorderHelper(child, list);
         }
-    }
-    
+   }
     public List<Integer> preorder(Node root) {
         List<Integer> list = new ArrayList<>();
         
