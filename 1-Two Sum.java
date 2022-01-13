@@ -1,4 +1,4 @@
-// O(N^2) approach
+// O(N^2) approach and its efficient one is using hashmap will upload it later:)
 
 public int[] twoSum(int[] nums, int target) {
         
