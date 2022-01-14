@@ -1,4 +1,6 @@
 public int maxDepth(Node root) {
+        
+        //base case
         if(root == null){
             return 0;
         }
