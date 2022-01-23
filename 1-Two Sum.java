@@ -1,4 +1,5 @@
-// O(N^2) approach using 2 loops
+// O(N^2) approach using 2 loops 
+//PS. Scroll down for optimal approach
 
 public int[] twoSum(int[] nums, int target) {
         
