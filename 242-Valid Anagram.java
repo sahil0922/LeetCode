@@ -1,5 +1,26 @@
-// O(N) time and space both
+//O(N) time and O(1) space
+public boolean isAnagram(String s, String t) {
+        if(s.length() != t.length()) return false;
+        
+        int[] cs = new int[26];
+        int[] ct = new int[26];
+        
+        for(int i = 0; i<s.length(); i++){
+            cs[s.charAt(i) - 'a']++;
+        }
+     
+        for(int i = 0; i<t.length(); i++){
+            ct[t.charAt(i) - 'a']++;
+        }
+        
+        for(int i = 0; i < 26; i++){
+            if(cs[i] != ct[i]) return false;
+        }
+        
+        return true;
+    }
 
+// O(N) time and space both
 public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
         
