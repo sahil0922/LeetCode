@@ -52,7 +52,7 @@ public List<List<Integer>> levelOrderBottom(TreeNode root) {
                 if(rem.right != null) queue.addLast(rem.right);
             }
             
-            st.push(-99999);
+            st.push(-99999); // as we are given range of root.val as between -1000 to 1000
         }
         
         List<List<Integer>> list = new ArrayList<>();
