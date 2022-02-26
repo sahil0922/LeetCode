@@ -2,9 +2,9 @@
 //check below for another method
 
 public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        if(root == null) return new ArrayList<>();
-        
         List<List<Integer>> list = new ArrayList<>();
+        
+        if(root == null) return list;
         
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
