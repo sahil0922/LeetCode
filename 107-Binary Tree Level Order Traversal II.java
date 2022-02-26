@@ -8,7 +8,6 @@ public List<List<Integer>> levelOrderBottom(TreeNode root) {
         
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        
             
         while(queue.size() > 0){
             int currsize = queue.size();
@@ -25,11 +24,9 @@ public List<List<Integer>> levelOrderBottom(TreeNode root) {
             if(li.size() > 0){
                 list.add(li);
             }
-            
         }
         
         Collections.reverse(list);
-         
         return list;
     }
 
